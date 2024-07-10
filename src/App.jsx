@@ -6,24 +6,27 @@ import Residencies from "./components/Residencies/Residencies";
 import Values from "./components/Values/Values";
 import Contact from "./components/Contact/Contact";
 import GetStart from "./components/GetStarted/GetStart";
-import Footer from "./components/Footer/Footer"
+import Footer from "./components/Footer/Footer";
+import { BrowserRouter } from "react-router-dom";
 
 import "./App.css";
 
 export default function App() {
   return (
-    <div className="App">
-      <div>
-        <div className="white-gradient" />
-        <Header />
-        <Hero />
+    <BrowserRouter>
+      <div className="App">
+        <div>
+          <div className="white-gradient" />
+          <Header />
+          <Hero />
+        </div>
+        <Companies />
+        <Residencies />
+        <Values />
+        <Contact />
+        <GetStart />
+        <Footer />
       </div>
-      <Companies />
-      <Residencies />
-      <Values />
-      <Contact/>
-      <GetStart/>
-      <Footer/>
-    </div>
+    </BrowserRouter>
   );
 }

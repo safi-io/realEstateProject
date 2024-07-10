@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="hero-wrapper">
+    <section className="hero-wrapper" id="hero">
       <div className="flexCenter paddings innerWidth hero-container">
         <div className=" flexColStart hero-left">
           <div className="hero-title">

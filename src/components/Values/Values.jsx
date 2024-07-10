@@ -22,7 +22,7 @@ export default function Values() {
   };
 
   return (
-    <section className="v-wrapper">
+    <section className="v-wrapper" id="values">
       <div className="v-container innerWidth paddings flexCenter">
         <div className="v-left">
           <div className="image-container">

@@ -72,4 +72,7 @@
     .mode {
         width: 100%;
     }
+    .c-wrapper {
+        padding-top: 5rem;
+    }
 }

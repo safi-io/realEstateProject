@@ -3,7 +3,7 @@ import "./GetStart.css";
 
 export default function GetStart() {
   return (
-    <section className="g-wrapper">
+    <section className="g-wrapper" id='getStart'>
       <div className="g-container paddings innerWidth flexCenter">
         <div className="innerContainer flexColCenter">
           <span className="primaryText">Get started with Homyz</span>

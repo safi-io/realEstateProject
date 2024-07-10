@@ -1,3 +1,6 @@
+.v-wrapper {
+    padding-top: 5rem;
+}
 .v-container {
     justify-content: space-around;
 }

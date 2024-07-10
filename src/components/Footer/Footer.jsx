@@ -3,7 +3,7 @@ import "./Footer.css";
 
 export default function Footer() {
   return (
-    <section className="f-wrapper">
+    <section className="f-wrapper" id="footer">
       <div className="f-container innerWidth paddings flexCenter">
         <div className="left-side flexColStart">
           <img src="./logo2.png" alt="footerLogo" width={120} />
