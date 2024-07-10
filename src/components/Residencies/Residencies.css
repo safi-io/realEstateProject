@@ -53,6 +53,16 @@
     right: 0;
 }
 
+@media (max-width: 640px) {
+    .r-buttons {
+        position: initial;
+        margin-top: 2rem;
+    }
+    .r-head {
+        align-items: center;
+    }
+}
+
 .r-buttons button {
     font-size: 1.2rem;
     padding: .2rem .8rem;

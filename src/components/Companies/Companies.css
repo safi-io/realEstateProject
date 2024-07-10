@@ -6,4 +6,8 @@
 .c-container>img {
     width: 9rem;
 }
-
+@media (max-width: 640px) {
+    .c-container {
+        flex-direction: column;
+    }
+}

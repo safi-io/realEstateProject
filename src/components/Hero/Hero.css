@@ -1,7 +1,7 @@
 .hero-wrapper {
     color: white;
     position: relative;
-    padding-bottom: 2rem;
+    padding: 5rem 0;
 }
 
 .hero-container {
@@ -73,4 +73,23 @@
 
 .stat>:nth-child(1)>:last-child {
     color: orange;
+}
+
+@media (max-width: 800px) {
+    .hero-container {
+        margin-top: 2rem;
+    }
+    .hero-title>h1 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .image-container {
+        width: 95%;
+        height: 25rem;
+    }
+    .stats {
+        gap: 1.5rem;
+        justify-content: center;
+    }
+    
 }

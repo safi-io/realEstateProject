@@ -20,7 +20,7 @@ export default function Contact() {
 
           <div className="flexColStart contactModes">
             {/* First Row */}
-            <div className="flexStart row">
+            <div className="row flexStart">
               <div className="flexColCenter mode">
                 <div className="flexStart">
                   <div className="icon flexCenter">
