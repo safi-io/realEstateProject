@@ -1,9 +1,9 @@
 # Details
 I developed this Real Estate Front-end from a Youtube video to just enhance my ReactJs Skills.
 # Technologies Used
--HTML5
--CSS3
--ReactJS
+- HTML5
+- CSS3
+- ReactJS
 # Live Link
 https://real-estate-by-safi.netlify.app
 # Upcoming
